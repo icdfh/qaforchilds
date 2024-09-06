@@ -1,0 +1,45 @@
+<!-- Страница с багом -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Первый баг найден</title>
+  <style>
+    body {
+      background-color: #e74c3c;
+      color: white;
+      font-family: 'Verdana', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .container {
+      text-align: center;
+    }
+    h1 {
+      font-size: 48px;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #333;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #444;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Вы нашли первый баг!</h1>
+    <button onclick="window.history.back()">Вернуться обратно</button>
+  </div>
+</body>
+</html>
